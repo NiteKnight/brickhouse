@@ -6,20 +6,39 @@
   overflow-y: auto;
   width: 100%;
 }
+
 .table-fixed thead, .table-fixed tbody, .table-fixed th {
-
  display: block;
-
 }
 
  .table-fixed tr, .table-fixed td {
-
-
  display: flex;
-
 }
 
 .table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+}
+
+
+.table-mytable thead {
+  width: 100%;
+}
+.table-mytable tbody {
+  height: 295px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.table-mytable thead, .table-mytable tbody, .table-mytable th {
+ display: block;
+}
+
+ .table-mytable tr, .table-mytable td {
+ display: flex;
+}
+
+.table-mytable tbody td, .table-mytable thead > tr> th {
   float: left;
   border-bottom-width: 0;
 }

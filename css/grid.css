@@ -2,10 +2,10 @@ h4 {
   margin-top: 25px;
 }
 .row {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .row .row {
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 0;
 }
 [class*="col-"] {
